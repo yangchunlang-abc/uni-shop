@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.my-userinfo-container {
+  height: 100%;
+}
+.my-userinfo-container .top-box {
+  height: 400rpx;
+  background-color: #e64340;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my-userinfo-container .top-box .avatar {
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  border-radius: 45px;
+  border: 2px solid white;
+}
+.my-userinfo-container .top-box .nikeName {
+  padding-top: 10px;
+  color: white;
+}
+.my-userinfo-container .three-card {
+  position: relative;
+  top: -40px;
+}
+.my-userinfo-container .three-card .pannel {
+  display: flex;
+  justify-content: space-around;
+}
+.my-userinfo-container .three-card .pannel .pannel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-userinfo-container .three-card ._h3 {
+  padding: 5px 0 10px 0;
+}
+.my-userinfo-container .three-card .order {
+  display: flex;
+  justify-content: space-around;
+}
+.my-userinfo-container .three-card .order .order-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-userinfo-container .three-card .order .order-item image {
+  height: 30px;
+  width: 30px;
+}
+.my-userinfo-container .three-card .function {
+  display: flex;
+  flex-direction: column;
+}
+.my-userinfo-container .three-card .function .function-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  line-height: 30px;
+}
+

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.goods-item {
+  display: flex;
+  padding: 10px 5px;
+}
+.goods-item .goods-left {
+  display: flex;
+  align-items: center;
+}
+.goods-item .goods-left .pic {
+  height: 100px;
+  width: 100px;
+  margin: 0 10px;
+}
+.goods-item .goods-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.goods-item .goods-right .head {
+  padding: 0 5px;
+}
+.goods-item .goods-right .right-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.goods-item .goods-right .right-bottom .price {
+  font-size: 18px;
+  color: red;
+}
+

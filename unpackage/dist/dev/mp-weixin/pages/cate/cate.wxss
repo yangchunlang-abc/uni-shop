@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.scoll-view-container {
+  display: flex;
+}
+.scoll-view-container .left-scroll-view {
+  width: 120px;
+}
+.scoll-view-container .left-scroll-view .left-scroll-view-item {
+  position: relative;
+  background-color: #f7f7ff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 12px;
+}
+.scoll-view-container .left-scroll-view .left-scroll-view-item.active {
+  background-color: #FFFFFF;
+}
+.scoll-view-container .left-scroll-view .left-scroll-view-item.active::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: ' ';
+  display: block;
+  width: 3px;
+  height: 30px;
+  background-color: #c00000;
+}
+.scoll-view-container .right-scroll-view .right-scroll-item .item-title {
+  text-align: center;
+}
+.scoll-view-container .right-scroll-view .right-scroll-item .scorll-item-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+.scoll-view-container .right-scroll-view .right-scroll-item .scorll-item-img .img-item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.scoll-view-container .right-scroll-view .right-scroll-item .scorll-item-img .img-item .image {
+  width: 60px;
+  height: 60px;
+}
+

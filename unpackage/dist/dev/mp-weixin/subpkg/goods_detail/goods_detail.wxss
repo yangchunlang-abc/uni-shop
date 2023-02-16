@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.goods-detail-content {
+  padding-bottom: 50px;
+}
+.goods-detail-content swiper {
+  height: 750rpx;
+}
+.goods-detail-content swiper image {
+  width: 100%;
+  height: 100%;
+}
+.goods-detail-content .goods-info {
+  margin: 20px 5px;
+  display: flex;
+  flex-direction: column;
+}
+.goods-detail-content .goods-info .price {
+  font-size: 30px;
+  color: red;
+}
+.goods-detail-content .goods-info .introduce {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.goods-detail-content .goods-info .introduce .jj {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.goods-detail-content .goods-info .introduce .sc {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 0 20px;
+}
+.goods-detail-content .goods-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+

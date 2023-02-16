@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.cart-content {
+  padding-bottom: 50px;
+}
+.cart-content .address {
+  padding: 10px 5px 0 5px;
+}
+.cart-content .cart-title {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 5px;
+  border-bottom: 1px solid #efefef;
+}
+.cart-content .cart-title .cart-title-text {
+  margin-left: 10px;
+}
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+

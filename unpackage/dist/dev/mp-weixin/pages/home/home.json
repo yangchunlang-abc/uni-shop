@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "黑马优购",
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search",
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar"
+  }
+}
